@@ -80,7 +80,7 @@ function App() {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          width: '100vh'
+          width: '100%'
         }}
       >
         <Container maxWidth="md">
