@@ -84,7 +84,7 @@ const ForecastCard = ({ forecast }: ForecastCardProps) => {
             alignItems: 'stretch',
           }}
         >
-          {forecast.map((day, index) => (
+          {forecast.map((day) => (
             <Box
               key={day.date}
               sx={{
